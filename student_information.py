@@ -11,3 +11,20 @@ username = name_part + student_id
 
 domain = "@st.ug.edu.gh"
 email = username + domain
+border = "=" * 40
+
+print()
+print(border)
+print("       STUDENT INFORMATION SYSTEM")
+print(border)
+print()
+print("Full Name                  : " + full_name)
+print("Student ID                 : " + student_id)
+print("Programme                  : " + programme)
+print("Level                      : " + level)
+print("Age                        : " + age)
+print("Favourite Language         : " + favourite_language)
+print("Generated Username         : " + username)
+print("Generated Email            : " + email)
+print()
+print(border)
